@@ -1,0 +1,21 @@
+/* SignupLogin.css */
+
+.switch-button-container {
+  text-align: center;
+  margin-bottom: 8px; /* Adjust margin as needed */
+}
+
+.switch-button {
+  background-color: #3498db; /* Set the background color for the button */
+  color: #fff; /* Set the text color for the button */
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.switch-button:hover {
+  background-color: #2980b9; /* Adjust the hover background color as needed */
+}

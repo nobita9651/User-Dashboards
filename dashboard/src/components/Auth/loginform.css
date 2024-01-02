@@ -1,0 +1,25 @@
+.login-form-container {
+  max-width: 400px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Add space between form elements */
+  margin-top: 20px; /* Add some top margin for better spacing */
+}
+
+.login-form-input,
+.login-form-button {
+  margin-bottom: 10px; /* Add bottom margin to form elements */
+}
+
+/* Style for the password visibility toggle button */
+.login-form-toggle-button {
+  margin-top: 10px; /* Add some top margin for the toggle button */
+}

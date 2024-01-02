@@ -1,0 +1,57 @@
+.user-details-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 2px;
+  display: flex;
+  flex-direction: column;
+  min-height: 78vh;
+}
+
+.user-details {
+  text-align: center;
+}
+
+.image-card {
+  margin-top: 20px;
+  text-align: center;
+}
+
+img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.links-container {
+  margin-top: auto;
+  text-align: center;
+}
+
+.links-container a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #333;
+  padding: 8px 16px;
+  border: 1px solid #333;
+  border-radius: 4px;
+}
+
+.links-container a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.links-container a {
+  margin: 0 10px;
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.links-container a:hover {
+  background-color: #45a049;
+}
